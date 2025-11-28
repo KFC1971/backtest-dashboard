@@ -1,0 +1,8 @@
+requests==2.32.3
+# Loosen versions for Py3.13 build environments
+pandas>=2.2.2,<2.3.0; python_version<'3.13'
+pandas>=2.2.2; python_version>='3.13'
+numpy>=2.1.0
+yfinance>=0.2.43
+python-dateutil>=2.9.0.post0
+pytz>=2024.1
